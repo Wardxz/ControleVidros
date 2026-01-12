@@ -423,7 +423,7 @@ public class ControleVidrosApp extends JFrame {
                     c.setBackground(new Color(200, 255, 200));  // Verde Claro
                 } else if (status.contains("FALTA MATERIAL")) {
                     c.setBackground(new Color(255, 200, 200));  // Vermelho Claro
-                } else if (status.contains("EM PRODUÇÃO") || status.contains("EM CORTE")) {
+                } else if (status.contains("PRONTO P/ CORTE")) {
                     c.setBackground(new Color(255, 255, 200));  // Amarelo Claro
                 } else {
                     c.setBackground(Color.WHITE);
