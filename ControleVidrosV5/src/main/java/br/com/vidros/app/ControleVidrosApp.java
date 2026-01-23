@@ -58,7 +58,7 @@ public class ControleVidrosApp extends JFrame {
         btnExportar.setIcon(UIManager.getIcon("FileView.floppyDriveIcon")); // Ícone de disquete
 
         JLabel lblFiltro = new JLabel("Filtrar por Obra: ");
-        JLabel lblAssinatura = new JLabel("Desenvolvedor: Arthur Ward");
+        JLabel lblAssinatura = new JLabel("Desenvolvedor: Arthur Ward (arthurwarddev@gmail.com)");
         cbFiltroObra = new JComboBox<>();
         cbFiltroObra.addItem("TODAS AS OBRAS");
 
