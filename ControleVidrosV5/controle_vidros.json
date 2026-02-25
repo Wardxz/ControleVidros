@@ -330,10 +330,10 @@
     "alturaMM": 897,
     "quantidadeTotal": 128,
     "qtdChegouFabrica": 128,
-    "qtdCortada": 97,
+    "qtdCortada": 138,
     "qtdReposicao": 3,
     "qtdEnviada": 0,
-    "statusGeral": "EM REPOSIÇÃO (3)"
+    "statusGeral": "PRONTO P/ ENVIO"
   },
   {
     "nomeObra": "OBRA2",
@@ -377,11 +377,11 @@
     "larguraMM": 902,
     "alturaMM": 2166,
     "quantidadeTotal": 28,
-    "qtdChegouFabrica": 0,
-    "qtdCortada": 0,
-    "qtdReposicao": 0,
+    "qtdChegouFabrica": 28,
+    "qtdCortada": 28,
+    "qtdReposicao": 2,
     "qtdEnviada": 0,
-    "statusGeral": "AGUARDANDO FORNECEDOR"
+    "statusGeral": "PRONTO P/ ENVIO"
   },
   {
     "nomeObra": "OBRA3",
@@ -393,10 +393,10 @@
     "larguraMM": 774,
     "alturaMM": 1897,
     "quantidadeTotal": 2,
-    "qtdChegouFabrica": 0,
-    "qtdCortada": 0,
-    "qtdReposicao": 0,
+    "qtdChegouFabrica": 2,
+    "qtdCortada": 2,
+    "qtdReposicao": 2,
     "qtdEnviada": 0,
-    "statusGeral": "AGUARDANDO FORNECEDOR"
+    "statusGeral": "PRONTO P/ ENVIO"
   }
 ]
