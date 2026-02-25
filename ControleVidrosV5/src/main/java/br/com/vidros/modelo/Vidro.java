@@ -128,8 +128,8 @@ public class Vidro implements Serializable {
         // Ordem de prioridade do Status
         if (qtdEnviada >= quantidadeTotal) {
             this.statusGeral = "ENTREGUE NA OBRA";
-        } else if (qtdReposicao > 0) {
-            this.statusGeral = "EM REPOSIÇÃO (" + qtdReposicao + ")";
+        } else if (qtdReposicao > 0 && (qtdChegouFabrica < quantidadeTotal || qtdCortada < quantidadeTotal)) {
+            this.statusGeral = "EM REPOSIÇÃO";
         } else if (qtdEnviada > 0) {
             this.statusGeral = "ENVIADO PARCIAL (" + qtdEnviada + "/" + quantidadeTotal + ")";
         } else if (qtdCortada >= quantidadeTotal) {
